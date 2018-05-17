@@ -1,12 +1,9 @@
+block variables
 <!DOCTYPE html>
 html(lang="ru")
   head
-    meta(charset="UTF-8")
-    meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1")
-    meta(http-equiv="X-UA-Compatible", content="ie=edge")
-    title Title
-    block styles
-        include ../partials/head.pug
+  block head 
+    include ../partials/head.pug
   body
     block footer
       include ../partials/header.pug
